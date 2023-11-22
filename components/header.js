@@ -17,7 +17,6 @@ export default function Header(){
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <p className="mr-5 hover:text-gray-900"><Link href="/">홈</Link></p>
           <p className="mr-5 hover:text-gray-900"><Link href="/project">프로젝트</Link></p>
-          <p className="mr-5 hover:text-gray-900">연락하기</p>
         </nav>
         <DarkModeToggleButton/>
       </div>
